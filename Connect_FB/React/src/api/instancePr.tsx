@@ -3,7 +3,7 @@ import axios from "axios"
 const instancePr=axios.create({
     baseURL:"http://localhost:8080/pr"
 });
-const jwt="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDI0M2ZjNWYzYzZjOWIzZDFlZGEwM2IiLCJpYXQiOjE2ODA2OTA4MjUsImV4cCI6MTY4MTU1NDgyNX0.KeynOtbpnJvqBLA4Xlfr0mvRS_YUJxIX33v5jYVOnT8";
+const jwt="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDMzYTZjYzBmY2VjM2EwZDViMDg4NTgiLCJpYXQiOjE2ODExMzcwMDgsImV4cCI6MTY4MjAwMTAwOH0.46nzAy0XYM7RZJsH9YxeZmQ8zTNd-5xyNrBsxoOEQmU";
  interface Product{
     _id:string,
     id:string,
