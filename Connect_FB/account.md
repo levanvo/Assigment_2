@@ -1,4 +1,4 @@
-Account ad:
+Account ad (duy nhất 1 account admin):
 - email: vo1@gmail.com
 - pass: 123567
  ---> to go manager
