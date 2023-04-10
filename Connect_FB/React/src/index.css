@@ -1,0 +1,146 @@
+
+.layoutAD {
+  display: flex;
+  width: 1200px;
+}
+body {
+  background: linear-gradient(190deg,white,black,white,black);/**/
+  background-size: 400% 400%;
+  color: rgb(233, 232, 232);
+  font-family: monospace;
+  /* background-image: url(https://thiepmung.com/images/theme/tai-hinh-nen-ngoi-sao-dep-cuc-chat-cho-may-tinh-85644335db7ac2.jpg); */
+  /* animation: bgAll 10s infinite alternate; */
+}
+/* @keyframes bgAll{
+  50%{
+    background-position: 50% 100%;
+  }
+} */
+.layoutCL {
+  /* text-align: center; */
+}
+
+/* initialization a table contains data after found something. */
+.foundPR{
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  background: #d3d3d37f;
+  top: 200px;
+  left: 360px;
+  border-radius: 10px;
+
+
+  
+}
+
+
+.outSide {
+  background: #4d4d4d;
+  border: 0.5px solid rgba(128, 128, 128, 0.271);
+  box-shadow: 10px 0px 22px 15px rgba(168, 168, 168, 0.333);
+  width: 300px;
+  height: 700px;
+  border-radius: 6px;
+  margin: 0 50px 0 0;
+  transition: all 0.1s;
+}
+
+.outSide:hover {
+  transition: all 0.1s;
+}
+.crud_admin{
+  color: rgb(241, 241, 241);
+  font-size: 20px;
+}
+.crud_admin:hover{
+  color: rgb(198, 198, 198);
+}
+.manager {
+  text-align: center;
+}
+
+.inSide {
+  width: 900px;
+}
+
+.h111 {
+  width: 100px;
+}
+
+.Home {
+  display: flex;
+}
+
+.Home h1 {
+  padding: 0 50px
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid rgb(154, 154, 154);
+}
+
+table {
+  width: 700px;
+}
+
+.img_profile{
+  border: 3px solid rgba(128, 128, 128, 0.548);
+}
+.img_profile:hover{
+  box-shadow: 0 0 16px 1px white;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.component img {
+  transition: all 0.4s;
+  transform: rotate(0deg);
+}
+
+.component:hover img {
+  transform: rotate(180deg);
+  transition: all 0.4s;
+}
+
+.component:hover {
+  transform: scale(1.1);
+  transition: all 0.1s;
+}
+
+.textChoose {
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgb(2, 179, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.component:focus .textChoose {
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 44, 33));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+.AreaCL{
+  width: 1100px;
+  height: 600px;
+}
+.shellCL{
+  width: 1100px;
+  height: 500px;
+  overflow-y: scroll;
+}
+/* .shellCL::-webkit-scrollbar{
+  width: 30px;
+}
+.shellCL::-webkit-scrollbar-thumb{
+  background: #000;
+} */
+/* ============================================== */
+
+
+
