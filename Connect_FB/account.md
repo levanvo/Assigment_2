@@ -15,3 +15,4 @@ Account client:
 -Thêm bớt sửa xóa(products + category) (có ảnh)
 -chi tiết SP + SP liên quan(20%)
 -check account admin và client, lấy pass thông qua email (sơ sài)
+-tìm kiếm sản phẩm
