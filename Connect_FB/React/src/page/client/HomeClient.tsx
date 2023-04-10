@@ -32,7 +32,7 @@ const HomeClient = (props: Ipop) => {
 
     const onSearch = (value: string) => {
         getData?.map((get)=>{
-            if(get.name==value){
+            if(get.name?.toUpperCase()==value.toUpperCase()){
                 // setOneData({...get});
                 // console.log(get.name);
                 handleFound(get?._id);
