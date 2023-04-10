@@ -22,21 +22,24 @@ const HomeClient = (props: Ipop) => {
             }}
         />
     );
-    // Hàm tìm kiếm khu web (Error by: click x2 thì nhận dc data nhưng click x1 đã chạy !!!)
-    function handleFound(){
+    // Hàm tìm kiếm khu web 
+    function handleFound(id:string){
         if(OneData!=undefined){
-            navigate(`detailPr/${OneData?._id}`);
+            navigate(`detailPr/${id}`);
+            console.log(id);
         }
     }
 
     const onSearch = (value: string) => {
         getData?.map((get)=>{
             if(get.name==value){
-                setOneData({...get});
+                // setOneData({...get});
+                // console.log(get.name);
+                handleFound(get?._id);
             }
         });
-        console.log(OneData);
-        handleFound();
+        // console.log(getData);
+        
     };
     
 
